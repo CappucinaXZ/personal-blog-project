@@ -21,11 +21,24 @@ function NavBar() {
 }
 
 function HeroSection(){
-  <div class ="flex flex-row justify-between py-4 px-8 bg-[#F9F8F6] border-b w-fill h-[529px]">
-    <div class ="bg white">
-      <p>abc</p>
+  return(
+    <div class = "flex flex-row justify-center bg-red-100 py-4 px-8 bg-[#F9F8F6] border-b w-fill h-hug">
+      <div class = "flex flex-col justify-center bg-white font-bold text-[52px] my-5 mx-5">
+        <p>Stay</p>
+        <p>Informed,</p>
+        <p>Stay Inspired</p>
+      </div>
+      <div class = "bg-blue-100 my-5 mx-5">
+        <img class ="border-4 border-black" src="\component\I_forgot.png"></img>
+      </div>
+      <div class = "flex flex-col justify-center bg-green-100 w-[347px] my-5 mx-5">
+        <p class = "flex items-center text-[12px]">- Author</p>
+        <p class = "flex items-center text-[24px] font-bold">Mocca MC</p><br></br>
+        <p class ="text-[16px]">Hi I am mocca this is my blog for learning react and up my skill
+        </p><br></br>
+      </div>
     </div>
-  </div>
+  );
 }
 
 
