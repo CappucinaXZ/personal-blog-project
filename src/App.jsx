@@ -29,7 +29,7 @@ function HeroSection(){
         <p>Stay Inspired</p>
       </div>
       <div class = "bg-blue-100 my-5 mx-5">
-        <img class ="border-4 border-black" src="\component\I_forgot.png"></img>
+        <img class ="border-4 border-black" src="https://raw.githubusercontent.com/CappucinaXZ/personal-blog-project/refs/heads/main/component/I_forgot.png"></img>
       </div>
       <div class = "flex flex-col justify-center bg-green-100 w-[347px] my-5 mx-5">
         <p class = "flex items-center text-[12px]">- Author</p>
